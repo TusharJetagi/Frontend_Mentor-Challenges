@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Figtree;
+}
+
+main {
+    background-color: #f4d04e;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    height: 410px;
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 6px 7px 1px black;
+}
+
+.card img {
+    width: 100%;
+    padding: 1.2rem;
+    border-radius: 28px;
+}
+
+.hero {
+    padding: 0 20px;
+}
+
+.hero .title {
+    background-color: #f4d04e;
+    padding: 6px 10px;
+    font-size: 12px;
+    font-weight: 800;
+    display: inline-block;
+    border-radius: 3px;
+    color: #121212;
+}
+
+.hero .date {
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: 800;
+}
+
+.hero h3 {
+    margin-top: 12px;
+    font-weight: 800;
+}
+
+.hero .para {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #808080;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+}
+
+.footer img {
+    width: 70px;
+}
+
+.footer p {
+    font-weight: 800;
+    font-size: 13px;
+    margin-left: -10px;
+
+}
